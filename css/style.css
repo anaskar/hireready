@@ -350,6 +350,19 @@ hr {
 	text-shadow: -1px 1px 1px #000;
 }
 
+/* ===========================
+--- Teampage
+============================ */
+
+.teampage {
+  width:100%;
+  position:relative;
+  background: url(../img/iphone6.jpg) no-repeat top center;
+}
+
+#teampage.intro {
+  padding:20% 0 0 0;
+}
 
 /* ===========================
 --- About
@@ -426,7 +439,7 @@ hr {
 ============================ */
 
 .service-icon {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
   
 }	
 
@@ -791,3 +804,6 @@ Parallax
 	}
 	
 }
+
+
+
