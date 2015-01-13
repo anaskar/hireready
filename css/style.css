@@ -304,8 +304,15 @@ hr {
 .intro {
 	width:100%;
 	position:relative;
-	
-	background: url(../img/iphone6.jpg) no-repeat top center;
+
+  background: url(../img/iphone6.jpg) no-repeat top center 
+
+}
+
+.backgroundimg{
+  width:100%;
+  position: relative;
+  background: url(../img/iphone6.jpg) no-repeat top center 
 }
 
 #intro.intro {
