@@ -22,46 +22,40 @@
 
 </head>
 
-<body> 
-	<!-- Preloader -->
-	<nav class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-          <a class="navbar-brand" href="index.html">
-                    <h1>HireReady</h1>
-                </a>
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+    <!-- Preloader -->
+    <div id="preloader">
+      <div id="load"></div>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <h1>HireReady</h1>
+                </a>
+            </div>
 
-      <ul class="nav navbar-nav navbar-right">
-      	<ul class="nav navbar-nav">
-        <li class="active"><a href="">Your Profile <span class="sr-only">(current)</span></a></li>
-     
-      </ul>
-        <li><a href="#">Resources</a></li>
-   		<li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Account <span class="caret"></span></a>
-          <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Settings</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Log out</a></li>
-  
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="dashboard.html">Your Profile</a></li>
+        <li><a href="resources.html">Services</a></li>
+        <li><a href="index.html">Logout</a></li>
+            <!--<li><a href="#">Example menu</a></li>
+            <li><a href="#">Example menu</a></li>-->
           </ul>
         </li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
 
 <section id="intro" class="home-section text-center">
 
