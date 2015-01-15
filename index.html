@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-{% extends "/templates/base.html" %}
+<!--{% extends "/templates/base.html" %}  -->
 <html lang="en">
 
 <head>
@@ -58,13 +58,9 @@
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="#start">Get Started</a></li>
-        <li><a href="#about">About</a></li>
-		<li><a href="#service">Services</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="about.html">Learn More</a></li>
+        <li><a href="getstarted.html">Get Started</a></li>
+		<li><a href="resources.html">Services</a></li>
+        <li><a href="dashboard.html">Login</a></li>
             <!--<li><a href="#">Example menu</a></li>
             <li><a href="#">Example menu</a></li>-->
           </ul>
@@ -76,34 +72,34 @@
         <!-- /.container -->
     </nav>
 
+
 	<!-- Section: intro -->
-    <section id="intro" class="intro">
-			
-		<div class="slogan"> <h1>Get working now.</h1>
-			<p>We're the only complete solution for independent workers to gain the tools, training and proper documents necessary to work on a platform </p>
-	</section>
-	
-	<section id="start" class="home-section text-center bg-gray">
-		<div class="typeform-widget" data-url="https://arian2.typeform.com/to/ZVijtD" data-text="Applicants" style="width:100%;height:400px;"></div>	
-			<div class="page-scroll">
-	
+
+  <section id="intro" class="intro">
+
+		<div class="col-lg-8 col-lg-offset-2">	
+		  <div class="team boxed-grey">
+                    <div class="inner">	
+		<div class="slogan"> <h1>Learn | Train | Earn </h1> 
+			<h3> HireReady makes it easy to start making money fast. </h3>
+			<a href="getstarted.html" class="btn btn-primary btn-lg"><span class="glyphicon"></span> Get Started</a>
+			<br> </br>
+			<p>Get started working with Uber, Lyft, Homejoy and so many more! </p>
+
+		</div>
 	</div>
-</section>
-			
-
-
-
-
-
-		</div>
-		
-			</a>
-		</div>
+	</div>
+	</div>
 	</section>
 
+	<section id="start" class="home-section text-center bg-gray">
 
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_ZVijtD&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term=English" style="color: #999" target="_blank">Typeform</a></div>
+		<div class="typeform-widget" data-url="https://arian2.typeform.com/to/ZVijtD" data-text="Applicants" style="width:100%;height:400px;"></div>	
+		<div class="page-scroll">
+	
+		</div>
+	</section>
+		
 	<!-- /Section: intro -->
 
 <!--Section: about -->
@@ -136,7 +132,7 @@
                 <div class="team boxed-grey">
                     <div class="inner">
 						<h3>Information</h3>
-                        <p class="subtitle">Everything you need to know to run your business and get started quickly!</p>
+                        <p class="subtitle">We're the only tool that you need to get working! Let us take the guesswork out of working for Uber, Lyft and all other services.</p>
                         <div class="avatar"><img src="" alt="" class="img-responsive img-circle" /></div>
                     </div>
                 </div>
@@ -147,7 +143,7 @@
                 <div class="team boxed-grey">
                     <div class="inner">
 						<h3>Resources</h3>
-                        <p class="subtitle">Access to the most important tools to manage your business.</p>
+                        <p class="subtitle">Access to the most important information and tools to manage your business.</p>
                         <div class="avatar"><img src="" alt="" class="img-responsive img-circle" /></div>
 
                     </div>
@@ -159,8 +155,8 @@
                 <div class="team boxed-grey">
                     <div class="inner">
 						<h3>Training</h3>
-                        <p class="subtitle">Complete guides to being successful across multiple platform businesses</p>
-                        <p> Be a Home professional by day, Driver by night. We teach it all. </p>
+                        <p class="subtitle">Complete guides to being successful across multiple platform businesses.</p>
+                        <p> Learn from the best. We have the best tips, guidelines and training from the best service providers. </p>
                         <div class="avatar"><img src="" alt="" class="img-responsive img-circle" /></div>
 
                     </div>
@@ -193,9 +189,10 @@
 			<div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
-					<div class="wow bounceInDown" data-wow-delay="0.4s">
 					<div class="section-heading">
 					<h1>Why join?</h1>
+					<div>
+
 					<h3>We're making it easy to join all of the growing platforms looking for independent workers. We want to provide you with the know-how, tools and training necessary to get up and running quickly and painlessly. </h3>
 					<h4> See a list of just some of the platforms we can get you started working on </h4>
 					<i class="fa fa-2x fa-angle-down"></i>
@@ -204,8 +201,6 @@
 					</div>
 				</div>
 			</div>
-			</div>
-		</div>
 		<div class="container">
 		<div class="row">
 			<div class="col-lg-2 col-lg-offset-5">
@@ -269,6 +264,9 @@
         </div>		
 		</div>
 	</section>
+
+	<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
+<div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_ZVijtD&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term=English" style="color: #999" target="_blank">Typeform</a></div>
 	<!-- /Section: services -->
 
 
