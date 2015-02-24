@@ -304,14 +304,14 @@ hr {
 	width:100%;
 	position:relative;
 
- background: url(../img/iphone6.jpg) no-repeat top center 
+ background: url(../img/tube.jpg) no-repeat top right
 
 }
 
 .backgroundimg{
   width:100%;
   position: relative;
-  background: url(../img/iphone6.jpg) no-repeat top center 
+  background: url(../img/tube.jpg) no-repeat top right
 }
 
 #intro.intro {
@@ -363,7 +363,7 @@ hr {
 .teampage {
   width:100%;
   position:relative;
-  background: url(../img/iphone6.jpg) no-repeat top center;
+  background: url(../img/tube.jpg) no-repeat bottom center;
 }
 
 #teampage.intro {
