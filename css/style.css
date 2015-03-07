@@ -39,6 +39,11 @@ p.lead {
 	font-weight: 600;
 }
 
+img{
+    max-width: 100%;
+    height:auto;
+}
+
 a {
     color: #28c3ab;
     -webkit-transition: all .2s ease-in-out;
@@ -51,6 +56,7 @@ a:focus {
     text-decoration: none;
     color: #176e61;
 }
+
 
 .light {
     font-weight: 400;
@@ -313,6 +319,8 @@ hr {
   position: relative;
   background: url(../img/tube.jpg) no-repeat top right
 }
+
+
 
 #intro.intro {
 	padding:20% 0 0 0;
