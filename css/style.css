@@ -387,6 +387,10 @@ hr {
 	padding: 20px;
 }
 
+.boxed-blue {
+  background: #d9eff4;
+  padding: 20px;
+}
 .team h5 {
 	margin-bottom: 10px;
 }
