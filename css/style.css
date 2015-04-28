@@ -23,7 +23,7 @@ h4,
 h5,
 h6 {
     margin: 0 0 30px;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: Montserrat,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
@@ -352,7 +352,7 @@ hr {
 	font-family: Montserrat, sans-serif;
 	background-color: rgba(0, 0, 0, 0);
 	text-decoration: none;
-	text-transform: uppercase;
+	text-transform: none;
 	border-width: 0px;
 	border-color: #000;
 	border-style: none;
@@ -470,7 +470,7 @@ hr {
 form#contact-form .form-group label {
 	text-align: left !important;
 	display: block;
-	text-transform: uppercase;
+	text-transform: none;
 	letter-spacing: 1px;
 	font-size: 12px;
 }
@@ -605,7 +605,7 @@ Parallax
 
 .btn {
 	border-radius: 0;
-    text-transform: uppercase;
+    text-transform: none;
     font-family: Montserrat,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
